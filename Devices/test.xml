@@ -1,1 +1,10 @@
-<data></data>
+<foreach>
+<mail id="a6" to="managers@mycompany.com" subject="Personnel Reports">
+    <attach format="pdf" name="attach.pdf" srcType="report" instance="this">
+      <include src="mainSection"/>
+    </attach>
+    <attach format="rtf" name="attach.rtf" srcType="report" instance="this">
+      <include src="trailerSection"/>
+    </attach>
+  </mail>
+</foreach>
