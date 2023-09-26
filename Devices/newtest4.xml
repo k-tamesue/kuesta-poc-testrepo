@@ -1,0 +1,53 @@
+<InvoiceData>
+  <Header Title="Sample Invoice" InvoiceType="Invoice" />
+  <IdFields>
+    <InvoiceDate DisplayName="Invoice date">2021-02-02</InvoiceDate>
+    <InvoiceNumber DisplayName="Invoice number">01</InvoiceNumber>
+  </IdFields>
+  <Buyer Title="Buyer">
+    <Name DisplayName="Name">Sample Buyer</Name>
+    <EMail DisplayName="Email">testsupplier@testinvoice.com</EMail>
+  </Buyer>
+  <Supplier Title="Supplier">
+    <Name DisplayName="Name">Sample Supplier</Name>
+    <EMail DisplayName="Email">testsupplier@testinvoice.com</EMail>
+  </Supplier>
+  <InvoiceFields Title="" DisplayDataColumnsCount="2">
+    <InvoiceDueDate DisplayName="Invoice due date">2021-02-02</InvoiceDueDate>
+    <InvoiceTotalVatRatePercent DisplayName="Tax rate percent">12.00</InvoiceTotalVatRatePercent>
+    <InvoiceOrderNumber DisplayName="Invoice order number">ORDER#1</InvoiceOrderNumber>
+    <AmountRounding DisplayName="AmountRounding">0.29</AmountRounding>
+  </InvoiceFields>
+  <LineItems Title="No of rows: 1">
+    <LineItem>
+      <LIT_RowIdentifier DisplayName="Row id" Alignment="Center">1</LIT_RowIdentifier>
+      <LIT_ArticleIdentifier DisplayName="Identifier" Alignment="Left">Article1</LIT_ArticleIdentifier>
+      <LIT_ArticleName DisplayName="Description" Alignment="Left">Consignment#1</LIT_ArticleName>
+      <LIT_OrderNumber DisplayName="Order no" Alignment="Center">ORDER#1</LIT_OrderNumber>
+      <LIT_DeliveredQuantity DisplayName="Quantity" Alignment="Center">1</LIT_DeliveredQuantity>
+      <LIT_DeliveredQuantityUnitCode DisplayName="Unit of measure" Alignment="Center">QTY#1</LIT_DeliveredQuantityUnitCode>
+      <LIT_UnitPriceAmount DisplayName="Unit price" Alignment="Right">10</LIT_UnitPriceAmount>
+      <LIT_VatRate DisplayName="Tax %" Alignment="Center">12.00</LIT_VatRate>
+      <LIT_DiscountPercent DisplayName="Discount %" Alignment="Center">20</LIT_DiscountPercent>
+      <LIT_DiscountAmount DisplayName="Discount" Alignment="Right">2.00</LIT_DiscountAmount>
+      <LIT_VatExcludedAmount DisplayName="Amount excluding Tax" Alignment="Right">8.00</LIT_VatExcludedAmount>
+    </LineItem>
+  </LineItems>
+  <Attachments Title="XML attachments">
+    <Attachment>
+      <Id DisplayName="Id">2994893.pdf.7655320.20180207_142027_068.pdf</Id>
+      <Filename DisplayName="File name">17.pdf</Filename>
+      <DataType DisplayName="Data type">Base64</DataType>
+      <EmbeddedValueInfo DisplayName="Embedded value info">EmbeddedValueInfo = 17916</EmbeddedValueInfo>
+      <AdditionalInfo DisplayName="Additional info">application/pdf</AdditionalInfo>
+    </Attachment>
+  </Attachments>
+  <Notes Title="Invoice note">
+    <InvoiceNote DisplayName="Invoice note">Test Invoice Note</InvoiceNote>
+  </Notes>
+  <Footer>
+    <SupplierVATRegistrationNumber DisplayName="Tax code">TESTSUPPLIER-VAT-REGNUM</SupplierVATRegistrationNumber>
+    <SupplierAccountNumber1 DisplayName="Supplier account">SUPPLIER_ACCT_NUMBER_123456</SupplierAccountNumber1>
+    <Address DisplayName="Address">1-2-3-4, street, city, india</Address>
+  </Footer>
+</InvoiceData>
