@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE junit SYSTEM "junit-result.dtd">
+<testsuites>
+  <testsuite tests="2" failures="0" time="0.009" name="github.com/subchen/go-xmldom">
+    <properties>
+      <property name="go.version">go2.0.1</property>
+    </properties>
+    <testcase classname="go-xmldom" id="ExampleParseXML" time="0.004" />
+    <testcase classname="go-xmldom" id="ExampleParse" time="0.005" />
+  </testsuite>
+</testsuites>
