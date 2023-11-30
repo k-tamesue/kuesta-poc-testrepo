@@ -1,5 +1,5 @@
 {
-	"transceivers": [
+	"interfaces": [
 		{
 			"down": [
 				"oe5",
