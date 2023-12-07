@@ -1,0 +1,12 @@
+{
+	"nokia2": {
+		"commands": [
+			"enter candidate",
+			"interface ethernet-1/1 admin-state enable",
+			"interface ethernet-1/2 admin-state enable",
+			"interface ethernet-1/3 admin-state enable",
+			"interface ethernet-1/4 admin-state disable",
+			"commit now"
+		]
+	}
+}
