@@ -1,16 +1,42 @@
 {
+	"interfaces": [
+		{
+			"down": [
+				"1/3",
+				"1/4"
+			],
+			"name": "nokia1",
+			"nos": "nokiasrl",
+			"up": [
+				"1/1",
+				"1/2"
+			]
+		},
+		{
+			"down": [
+				"1/4"
+			],
+			"name": "nokia2",
+			"nos": "Nokiasrl",
+			"up": [
+				"1/1",
+				"1/2",
+				"1/3"
+			]
+		}
+	],
 	"transceivers": [
 		{
 			"down": [
-				"oe4",
-				"oe5"
+				"oe5",
+				"oe2",
+				"oe3"
 			],
 			"name": "cassini1",
 			"nos": "netconf",
 			"up": [
 				"oe1",
-				"oe2",
-				"oe3"
+				"oe5"
 			]
 		},
 		{
