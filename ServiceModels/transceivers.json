@@ -2,15 +2,15 @@
 	"transceivers": [
 		{
 			"down": [
-				"oe4",
-				"oe5"
+				"oe5",
+				"oe2",
+				"oe3"
 			],
 			"name": "cassini1",
 			"nos": "netconf",
 			"up": [
 				"oe1",
-				"oe2",
-				"oe3"
+				"oe5"
 			]
 		},
 		{
