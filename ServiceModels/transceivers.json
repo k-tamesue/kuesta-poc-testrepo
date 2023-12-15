@@ -3,14 +3,14 @@
 		{
 			"down": [
 				"oe5",
-				"oe2",
-				"oe3"
+				"oe2"
 			],
 			"name": "cassini1",
 			"nos": "netconf",
 			"up": [
 				"oe1",
-				"oe5"
+				"oe5",
+				"oe3"
 			]
 		},
 		{
@@ -19,8 +19,7 @@
 			"nos": "netconf",
 			"up": [
 				"oe1",
-				"oe2",
-				"oe3"
+				"oe2"
 			]
 		}
 	]
