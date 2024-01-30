@@ -1,14 +1,14 @@
 {
-	"cassini1": {
+	"cassini2": {
+		"data/components/component[name=oe1]/transceiver/config/enabled": "true",
+		"data/components/component[name=oe2]/transceiver/config/enabled": "true",
+		"data/components/component[name=oe3]/transceiver/config/enabled": "false"
+	},
+	"cassini32": {
 		"data/components/component[name=oe1]/transceiver/config/enabled": "true",
 		"data/components/component[name=oe2]/transceiver/config/enabled": "true",
 		"data/components/component[name=oe3]/transceiver/config/enabled": "true",
 		"data/components/component[name=oe4]/transceiver/config/enabled": "false",
 		"data/components/component[name=oe5]/transceiver/config/enabled": "false"
-	},
-	"cassini2": {
-		"data/components/component[name=oe1]/transceiver/config/enabled": "true",
-		"data/components/component[name=oe2]/transceiver/config/enabled": "true",
-		"data/components/component[name=oe3]/transceiver/config/enabled": "false"
 	}
 }
