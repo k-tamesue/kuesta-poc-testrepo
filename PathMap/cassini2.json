@@ -2,6 +2,6 @@
 	"cassini2": {
 		"data/components/component[name=oe1]/transceiver/config/enabled": "true",
 		"data/components/component[name=oe2]/transceiver/config/enabled": "true",
-		"data/components/component[name=oe3]/transceiver/config/enabled": "true"
+		"data/components/component[name=oe3]/transceiver/config/enabled": "false"
 	}
 }
