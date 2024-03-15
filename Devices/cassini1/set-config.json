@@ -1,0 +1,35 @@
+{
+	"data": {
+		"@xmlns": "urn:ietf:params:xml:ns:netconf:base:1.0",
+		"@xmlns:nc": "urn:ietf:params:xml:ns:netconf:base:1.0",
+		"components": {
+			"@xmlns": "http://openconfig.net/yang/platform",
+			"component": [
+				{
+					"config": {
+						"name": "oe1"
+					},
+					"name": "oe1",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:CFP2_ACO",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				}
+			]
+		}
+	}
+}
