@@ -1,0 +1,2326 @@
+{
+	"data": {
+		"@xmlns": "urn:ietf:params:xml:ns:netconf:base:1.0",
+		"@xmlns:nc": "urn:ietf:params:xml:ns:netconf:base:1.0",
+		"components": {
+			"@xmlns": "http://openconfig.net/yang/platform",
+			"component": [
+				{
+					"config": {
+						"name": "oe1"
+					},
+					"name": "oe1",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:CFP2_ACO",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe1/1"
+					},
+					"name": "oe1/1",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194700000",
+							"line-port": "oe1",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe1/2"
+					},
+					"name": "oe1/2",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194750000",
+							"line-port": "oe1",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe2"
+					},
+					"name": "oe2",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:CFP2_ACO",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe2/1"
+					},
+					"name": "oe2/1",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194700000",
+							"line-port": "oe2",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe2/2"
+					},
+					"name": "oe2/2",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194750000",
+							"line-port": "oe2",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe3"
+					},
+					"name": "oe3",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:CFP2_ACO",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe3/1"
+					},
+					"name": "oe3/1",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194700000",
+							"line-port": "oe3",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe3/2"
+					},
+					"name": "oe3/2",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194750000",
+							"line-port": "oe3",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe4"
+					},
+					"name": "oe4",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "false",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:CFP2_ACO",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe4/1"
+					},
+					"name": "oe4/1",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194700000",
+							"line-port": "oe4",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe4/2"
+					},
+					"name": "oe4/2",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194750000",
+							"line-port": "oe4",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe5"
+					},
+					"name": "oe5",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "false",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:CFP2_ACO",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe5/1"
+					},
+					"name": "oe5/1",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194700000",
+							"line-port": "oe5",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe5/2"
+					},
+					"name": "oe5/2",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194750000",
+							"line-port": "oe5",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe6"
+					},
+					"name": "oe6",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:CFP2_ACO",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe6/1"
+					},
+					"name": "oe6/1",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194700000",
+							"line-port": "oe6",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe6/2"
+					},
+					"name": "oe6/2",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194750000",
+							"line-port": "oe6",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe7"
+					},
+					"name": "oe7",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:CFP2_ACO",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe7/1"
+					},
+					"name": "oe7/1",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194700000",
+							"line-port": "oe7",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe7/2"
+					},
+					"name": "oe7/2",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194750000",
+							"line-port": "oe7",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe8"
+					},
+					"name": "oe8",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:CFP2_ACO",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe8/1"
+					},
+					"name": "oe8/1",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194700000",
+							"line-port": "oe8",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "oe8/2"
+					},
+					"name": "oe8/2",
+					"optical-channel": {
+						"@xmlns": "http://openconfig.net/yang/terminal-device",
+						"config": {
+							"frequency": "194750000",
+							"line-port": "oe8",
+							"target-output-power": "-5.1"
+						},
+						"state": {
+							"input-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"input-power-range": {
+								"max": "0.0",
+								"min": "-18.0"
+							},
+							"output-power": {
+								"avg": "0.08",
+								"instant": "0.12",
+								"interval": "60000000",
+								"max": "0.2",
+								"max-time": "1558561815512",
+								"min": "0.01",
+								"min-time": "1558561809512"
+							},
+							"target-output-power": "-5.1",
+							"target-power-range": {
+								"max": "1.0",
+								"min": "-30.0"
+							}
+						}
+					},
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-opt-types:OPTICAL_CHANNEL",
+							"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe1"
+					},
+					"name": "xe1",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe10"
+					},
+					"name": "xe10",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe11"
+					},
+					"name": "xe11",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe12"
+					},
+					"name": "xe12",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe13"
+					},
+					"name": "xe13",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe14"
+					},
+					"name": "xe14",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe15"
+					},
+					"name": "xe15",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe16"
+					},
+					"name": "xe16",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe2"
+					},
+					"name": "xe2",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe3"
+					},
+					"name": "xe3",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe4"
+					},
+					"name": "xe4",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe5"
+					},
+					"name": "xe5",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe6"
+					},
+					"name": "xe6",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe7"
+					},
+					"name": "xe7",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe8"
+					},
+					"name": "xe8",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				},
+				{
+					"config": {
+						"name": "xe9"
+					},
+					"name": "xe9",
+					"port": null,
+					"state": {
+						"empty": "false",
+						"type": {
+							"#text": "oc-platform-types:TRANSCEIVER",
+							"@xmlns:oc-platform-types": "http://openconfig.net/yang/platform-types"
+						}
+					},
+					"transceiver": {
+						"@xmlns": "http://openconfig.net/yang/platform/transceiver",
+						"config": {
+							"enabled": "true",
+							"form-factor-preconf": {
+								"#text": "oc-opt-types:QSFP28",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						}
+					}
+				}
+			]
+		},
+		"terminal-device": {
+			"@xmlns": "http://openconfig.net/yang/terminal-device",
+			"logical-channels": {
+				"channel": [
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe1/1",
+							"index": "10101",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "10101",
+						"ingress": {
+							"config": {
+								"transceiver": "xe1"
+							}
+						},
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"allocation": "100.0",
+									"assignment-type": "LOGICAL_CHANNEL",
+									"index": "10101",
+									"logical-channel": "20101"
+								},
+								"index": "10101"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe2/1",
+							"index": "10201",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "10201",
+						"ingress": {
+							"config": {
+								"transceiver": "xe2"
+							}
+						},
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"allocation": "100.0",
+									"assignment-type": "LOGICAL_CHANNEL",
+									"index": "10201",
+									"logical-channel": "20102"
+								},
+								"index": "10201"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe3/1",
+							"index": "10301",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "10301",
+						"ingress": {
+							"config": {
+								"transceiver": "xe3"
+							}
+						},
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"allocation": "100.0",
+									"assignment-type": "LOGICAL_CHANNEL",
+									"index": "10301",
+									"logical-channel": "20202"
+								},
+								"index": "10301"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe4/1",
+							"index": "10401",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "10401",
+						"ingress": {
+							"config": {
+								"transceiver": "xe4"
+							}
+						},
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"allocation": "100.0",
+									"assignment-type": "LOGICAL_CHANNEL",
+									"index": "10401",
+									"logical-channel": "20201"
+								},
+								"index": "10401"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe5/1",
+							"index": "10501",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "10501",
+						"ingress": {
+							"config": {
+								"transceiver": "xe5"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe6/1",
+							"index": "10601",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "10601",
+						"ingress": {
+							"config": {
+								"transceiver": "xe6"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe7/1",
+							"index": "10701",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "10701",
+						"ingress": {
+							"config": {
+								"transceiver": "xe7"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe8/1",
+							"index": "10801",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "10801",
+						"ingress": {
+							"config": {
+								"transceiver": "xe8"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe9/1",
+							"index": "10901",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "10901",
+						"ingress": {
+							"config": {
+								"transceiver": "xe9"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe10/1",
+							"index": "11001",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "11001",
+						"ingress": {
+							"config": {
+								"transceiver": "xe10"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe11/1",
+							"index": "11101",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "11101",
+						"ingress": {
+							"config": {
+								"transceiver": "xe11"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe12/1",
+							"index": "11201",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "11201",
+						"ingress": {
+							"config": {
+								"transceiver": "xe12"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe13/1",
+							"index": "11301",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "11301",
+						"ingress": {
+							"config": {
+								"transceiver": "xe13"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe14/1",
+							"index": "11401",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "11401",
+						"ingress": {
+							"config": {
+								"transceiver": "xe14"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe15/1",
+							"index": "11501",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "11501",
+						"ingress": {
+							"config": {
+								"transceiver": "xe15"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "xe16/1",
+							"index": "11601",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"trib-protocol": {
+								"#text": "oc-opt-types:PROT_100GE",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "11601",
+						"ingress": {
+							"config": {
+								"transceiver": "xe16"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe1/1",
+							"index": "20101",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20101",
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"assignment-type": "OPTICAL_CHANNEL",
+									"index": "20101",
+									"optical-channel": "oe1/1"
+								},
+								"index": "20101"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe1/2",
+							"index": "20102",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20102",
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"assignment-type": "OPTICAL_CHANNEL",
+									"index": "20102",
+									"optical-channel": "oe1/2"
+								},
+								"index": "20102"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe2/1",
+							"index": "20201",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20201",
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"assignment-type": "OPTICAL_CHANNEL",
+									"index": "20201",
+									"optical-channel": "oe2/1"
+								},
+								"index": "20201"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe2/2",
+							"index": "20202",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20202",
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"assignment-type": "OPTICAL_CHANNEL",
+									"index": "20202",
+									"optical-channel": "oe2/2"
+								},
+								"index": "20202"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe3/1",
+							"index": "20301",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20301",
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe3/2",
+							"index": "20302",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20302",
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe4/1",
+							"index": "20401",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20401",
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe4/2",
+							"index": "20402",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20402",
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe5/1",
+							"index": "20501",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20501",
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"assignment-type": "OPTICAL_CHANNEL",
+									"index": "20501",
+									"optical-channel": "oe5/1"
+								},
+								"index": "20501"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe5/2",
+							"index": "20502",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20502",
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"assignment-type": "OPTICAL_CHANNEL",
+									"index": "20502",
+									"optical-channel": "oe5/2"
+								},
+								"index": "20502"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe6/1",
+							"index": "20601",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20601",
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"assignment-type": "OPTICAL_CHANNEL",
+									"index": "20601",
+									"optical-channel": "oe6/1"
+								},
+								"index": "20601"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe6/2",
+							"index": "20602",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20602",
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"assignment-type": "OPTICAL_CHANNEL",
+									"index": "20602",
+									"optical-channel": "oe6/2"
+								},
+								"index": "20602"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe7/1",
+							"index": "20701",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20701",
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"assignment-type": "OPTICAL_CHANNEL",
+									"index": "20701",
+									"optical-channel": "oe7/1"
+								},
+								"index": "20701"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe7/2",
+							"index": "20702",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20702",
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"assignment-type": "OPTICAL_CHANNEL",
+									"index": "20702",
+									"optical-channel": "oe7/2"
+								},
+								"index": "20702"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe8/1",
+							"index": "20801",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20801",
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"assignment-type": "OPTICAL_CHANNEL",
+									"index": "20801",
+									"optical-channel": "oe8/1"
+								},
+								"index": "20801"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					},
+					{
+						"config": {
+							"admin-state": "ENABLED",
+							"description": "oe8/2",
+							"index": "20802",
+							"logical-channel-type": {
+								"#text": "oc-opt-types:PROT_ETHERNET",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							},
+							"rate-class": {
+								"#text": "oc-opt-types:TRIB_RATE_100G",
+								"@xmlns:oc-opt-types": "http://openconfig.net/yang/transport-types"
+							}
+						},
+						"index": "20802",
+						"logical-channel-assignments": {
+							"assignment": {
+								"config": {
+									"assignment-type": "OPTICAL_CHANNEL",
+									"index": "20802",
+									"optical-channel": "oe8/2"
+								},
+								"index": "20802"
+							}
+						},
+						"state": {
+							"loopback-mode": "NONE"
+						}
+					}
+				]
+			}
+		}
+	}
+}
